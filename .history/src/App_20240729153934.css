@@ -1,0 +1,81 @@
+body {
+  background-color: cadetblue;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 20px auto;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 50px 50px 0 0;
+}
+
+.search_box {
+  position: relative;
+  width: 100%;
+}
+
+.srch {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIUSURBVHgB3VXNTttAEJ7x7zVvUPMELbcKQWWklqJeGrUU9RbyBPgNSp4A8QTArYJWCreUHpoqqOoNHsGPkGMxrKczu04bYq8VIzjAJ23iXc/ONzs78xngoQPrXi6/3IjRxQ6bxTyNzAa6IIALoPxkdPq1D7chiNc/RorUfuG4DukVZqu/B/3UZuDMLiy9+vBM5fm5dk4wJoQeO1kYfTtCGSqnRUDqinM5lU/BueyBeU6gIxfnCC0eh+6fLBkO++OqjXHcbl2H/g4CbvN0zEEsVp3Em54oyn+IcwLaOxscJ1CDgjhZWduUYDo++ZxSWJ21+5eilbX3bTAXmXqXVzswJ9wsSySVktLl9Y3YSgDovTX/1LOlxXYSrqo9s1UqzkJARPqilOISbAjPcQ6KKGMrASJogl/fjxsTDAef0+IxshLcF6YIMJXfpTfvnkBDTPoAoZze/wREP/XCtdeFhnDBpJfL205ATn6go0DYliaCOaFtHfxknOCJleBs8GXIFjygpUJ/F+ZEHgbiPOKRjk6PSuJ3o5NddLtGKnDrxevNsXOZ9eqkQoXhLqdlywSfV6a2pKZyYS6ilgyJCnLqKb68Sfk+j9tREAQdbq6ksJmgUllr5Jp1qaKup0GSUu58JGe/sC2R1H5wjD65bY726aQR9anYMSEdmnsrBXSDpJagCWZJ+NuxIOt31skiFy46ItcpPCr8BXLC6nWtWkAUAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-color: #F9FAFC;
+  background-position: 10px center;
+  border: none;
+  padding: 13px 45px;
+  width: 600px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3D4756;
+  line-height: 22px;
+}
