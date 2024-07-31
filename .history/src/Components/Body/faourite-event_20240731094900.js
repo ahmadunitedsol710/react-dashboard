@@ -1,0 +1,4 @@
+
+const FavouriteEvent = () => {
+    return ()
+}

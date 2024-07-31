@@ -1,0 +1,123 @@
+body {
+  background-color: cadetblue;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 20px auto;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Header */
+.header { display: flex; justify-content: center; align-items: center; gap: 20px; background-color: #ffffff; padding: 15px 40px; border-radius: 50px 50px 0 0; }
+
+.header .search_box { position: relative; width: 100%; }
+
+.header .search_box .srch { background-image: url(./Images/Search.png); background-repeat: no-repeat; background-color: #F9FAFC; background-position: 10px center; border: none; padding: 13px 45px; width: 600px; border-radius: 50px; font-size: 14px; font-weight: 400; color: #3D4756; line-height: 22px; }
+
+
+/* Events */
+.events {
+  background-color: #f9fafe;
+  padding: 32px 24px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: max-content;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.image {
+  background-color: #ECEAFF;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.sidebar_img {
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+}
+
+/* Eveent list */
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  width: 849px;
+}
+
+th {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #6a6a6a;
+}
+
+.body_row td {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.body_row td:first-child {
+  borde
+}
+
+.body_row td:last-child {
+
+}
