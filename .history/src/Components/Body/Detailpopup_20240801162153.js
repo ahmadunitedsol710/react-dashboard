@@ -1,0 +1,6 @@
+
+const Detailpopup = () => {
+
+}
+
+export des
