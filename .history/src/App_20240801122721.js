@@ -1,6 +1,6 @@
 // import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './Components/Header/index';
-import Events from './Components/Body/Events';
+import Eve
 import './App.css';
 
 function App() {
